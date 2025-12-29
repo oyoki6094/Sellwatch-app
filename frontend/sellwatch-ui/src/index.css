@@ -1,0 +1,124 @@
+/* Reset global */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* empêche le scroll horizontal */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Conteneur principal */
+#root, .app-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  min-width: 220px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: #2979FF;
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+/* Contenu principal */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* scroll vertical */
+  background-color: #F5F5F5;
+}
+
+/* Liens sidebar */
+.sidebar nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+  transition: all 0.3s ease;
+}
+
+.sidebar nav a.active {
+  color: #2979FF;
+  background: #fff;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255,165,0,0.6);
+}
+
+/* Nom de l'application */
+.sidebar .app-name {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-width: auto;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
+  .sidebar nav {
+    flex-direction: row;
+    gap: 5px;
+    overflow-x: auto;
+  }
+
+  .sidebar nav a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .main-content {
+    padding: 15px;
+  }
+}
+
+/* Tableau scrollable */
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f0f0f0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

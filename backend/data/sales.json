@@ -1,0 +1,67 @@
+[
+  {
+    "product": "Chargeur",
+    "amount": 5000,
+    "date": "2025-12-14T19:39:03.290Z"
+  },
+  {
+    "product": "Chargeur",
+    "amount": 5000,
+    "date": "2025-12-14T20:32:02.978Z"
+  },
+  {
+    "product": "Clavier",
+    "amount": 12000,
+    "date": "2025-12-14T23:36:57.109Z"
+  },
+  {
+    "product": "lunettes",
+    "amount": 7500,
+    "date": "2025-12-14T23:40:20.639Z"
+  },
+  {
+    "product": "Voiture",
+    "amount": 15000000,
+    "date": "2025-12-14T23:41:03.729Z"
+  },
+  {
+    "product": "Sac",
+    "amount": 15000,
+    "date": "2025-12-14T23:41:46.524Z"
+  },
+  {
+    "product": "Ventilateur ",
+    "amount": 15000,
+    "date": "2025-12-15T08:44:56.607Z"
+  },
+  {
+    "product": "clé",
+    "amount": 2211121,
+    "date": "2025-12-15T15:29:45.861Z"
+  },
+  {
+    "product": "decor",
+    "amount": 22222122,
+    "date": "2025-12-15T15:30:14.436Z"
+  },
+  {
+    "product": "rot",
+    "amount": 2000,
+    "date": "2025-12-15T15:31:20.778Z"
+  },
+  {
+    "product": "toto",
+    "amount": 20000,
+    "date": "2025-12-15T15:31:44.638Z"
+  },
+  {
+    "product": "z",
+    "amount": -3,
+    "date": "2025-12-15T22:54:57.152Z"
+  },
+  {
+    "product": "thyjyk",
+    "amount": 221,
+    "date": "2025-12-15T23:01:12.751Z"
+  }
+]

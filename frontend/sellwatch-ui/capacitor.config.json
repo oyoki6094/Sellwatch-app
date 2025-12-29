@@ -1,0 +1,6 @@
+{
+  "appId": "com.sellwatch.app",
+  "appName": "sellwatch",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
